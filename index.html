@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <h1 class="title">MAZE GENERATOR</h1>
+    <div class="complete1">
+        <h3>Maze Completed.</h3>
+  
+        <br />
+      
+        <button class="replay" id="submit">Play again</button>
+      
+        <button class="close" id="submit">Close</button>
+      </div>
+      
+      <div class="complete4">
+  
+        <br /><br /><br />
+        <h3>Use Keyboard Arrows for moving in the block</h3>
+  
+      </div>
+  
+      <div class="complete2">
+        <h3>Maze Generation Completed</h3>
+  
+        <br />
+      
+        <button class="play" id="submit">Play</button>
+  
+        <button class="solve" id="submit">Solve</button>
+      
+        <button class="back" id="submit">Back</button>
+      </div>
+      
+        <form id="settings" action="">
+          <h2>Rows / Columns</h2>
+  
+          <br />
+      
+          <input id="number" type="number" value="20" /></br>
+      
+          <input id="submit" type="submit" value="Generate Maze">
+        </form>
+    
+      <canvas class="maze"></canvas>
+      <button class="reset-btn" id="reset-btn">Reset</button>
+      <div class="bottom-btns">
+        <button class="reset-btn2" id="reset-btn2">Reset</button>
+        <button class="solve-btn" id="solve-btn">Solve</button>
+      </div>
+  
+      
+      <script src="maze.js"></script>
+  
+      <script src="script.js"></script>
+
+
+</body>
+</html>
