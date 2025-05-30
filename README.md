@@ -12,7 +12,7 @@ MazeGenerator is an interactive web-based JavaScript application that allows use
 
 ## Demo
 
-https://maze-generator-ashen.vercel.app/
+https://maze-generator-hazel.vercel.app/
 
 ## Usage
 
